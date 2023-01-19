@@ -70,7 +70,7 @@ io.on("connection", async (socket) => {
 });
 
 const server = httpserver.listen(PORT, async () => {
-  await mongoose.connect(process.env.MONGOATLAS);
+  await mongoose.connect('mongodb+srv://adminSoloDesafio:adminDesafioclase34@cluster0.qlybzsz.mongodb.net/?retryWrites=true&w=majority');
   console.log(`Server running on port ${PORT}`);
 });
 server.on('error', err => console.log(`Error: ${err}`));
