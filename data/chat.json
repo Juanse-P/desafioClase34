@@ -1,0 +1,25 @@
+{
+    "entities": {
+        "author": {
+            "jspp020205@gmail.com": {
+                "id": "jspp020205@gmail.com",
+                "name": "Juan ",
+                "lastname": "Pinilla",
+                "age": 19,
+                "alias": "aaaa",
+                "avatar": "https://www.shutterstock.com/image-illustration/tula-russia-february-28-2021-260nw-1932915491.jpg"
+            }
+        },
+        "messages": {
+            "2": {
+                "author": "jspp020205@gmail.com",
+                "text": "Hola gente",
+                "time": "5/12/2022, 21:04:24",
+                "id": 2
+            }
+        }
+    },
+    "result": [
+        2
+    ]
+}

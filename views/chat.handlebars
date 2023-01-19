@@ -1,0 +1,35 @@
+<section>
+	{{> welcome}}
+	<div class="container bg-light p-3 rounded m-3">
+		<h2 class="text-primary">Chat en vivo</h2>
+		<form action="chat" method="post" id="myChat">
+			<div class="mb-3">
+				<label for="email" class="form-label">Correo electronico:</label>
+				<input type="email" class="form-control" id="id" placeholder="Email del usuario" required="" />
+				<label for="nombreUsuario" class="form-label">Nombre de usuario:</label>
+				<input type="text" class="form-control" id="name" placeholder="Nombre del usuario" required="" />
+				<label for="apellido" class="form-label">Apellido:</label>
+				<input type="text" class="form-control" id="lastname" placeholder="Apellido del usuario" required="" />
+				<label for="edad" class="form-label">Edad:</label>
+				<input type="number" class="form-control" id="age" placeholder="Edad del usuario" required="" />
+				<label for="nameTag" class="form-label">nameTag o Alias:</label>
+				<input type="text" class="form-control" id="alias" placeholder="Alias del usuario" required="" />
+				<label for="avatar" class="form-label">Link del avatar:</label>
+				<input type="text" class="form-control " id="avatar" placeholder="URL del avatar del usuario"
+					required="" />
+
+			</div>
+			<hb></hb>
+			<label for="mensaje" class="form-label">Mesnaje:</label>
+			<input type="text" class="form-control d-inline border border-info" id="text" placeholder="Mensaje"
+				required="" />
+
+			<input type="submit" class="btn btn-primary" value="Enviar" />
+		</form>
+		<hr />
+		<div id="compresion"></div>
+		<div id="messages">
+
+		</div>
+	</div>
+</section>
